@@ -1,0 +1,9 @@
+micronaut:
+  security:
+    oauth2:
+      clients:
+        cognito:
+          client-id: 'xxx'
+          client-secret: 'yyy'
+          openid:
+            issuer: 'https://cognito-idp.eu-west-1.amazonaws.com/eu-west-1_ryzdYRYvn/'
